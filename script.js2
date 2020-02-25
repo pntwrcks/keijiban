@@ -1,0 +1,22 @@
+function menseki(hannkei,π){
+return hannkei*hannkei*π;
+}
+
+document.write(menseki(5,3.14));
+document.write(menseki(7,3.14));
+document.write(menseki(10,3.14));
+
+docuent.write("<br>");
+
+function totalPrice(otona=500 ,kodomo=200) {
+  return document.write(  + "円です。");
+}
+
+totalPrice(2,4);
+document.write("<br>");
+totalPrice(1,5);
+document.write("<br>");
+totalPrice();
+
+
+
